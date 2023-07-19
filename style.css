@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Tektur:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: 'Tektur', cursive;
+}
+
+.topic{
+    background-color: rgba(255,255,255,0.2);
+    padding: 15px;
+    border: 2.5px solid #fff;
+    border-radius: 21px;
+    margin: 20px;
+    border-style:dotted;
+}
+
+dt{
+    color: aquamarine;
+    text-decoration: underline;
+    filter: drop-shadow(0 0 0.3rem aquamarine);
+}
+h2{
+    color: #4ecfcf;
+    text-align: center;
+    text-decoration: underline;
+    filter: drop-shadow(0 0 0.75rem #27a8a8);
+}
+
+strong{
+    color: crimson;
+}
+
+h4{
+    color:bisque;
+    text-decoration: underline;
+    filter: drop-shadow(0 0 0.5rem bisque);
+    text-align: center;
+}
+
+dd, li{
+    font-family: 'Dosis', sans-serif;
+}
+table tr td button { 
+    padding: 5px;
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+    border: none;
+    border-radius: 10px;
+}
+.username{
+    background-color: #cf63f0;
+}
+.domain{
+    background-color: #dc143c;
+}
+.imp{
+    background-color: rgba(255,215,0,0.2);
+    padding: 15px;
+    border: 4px solid gold;
+    border-radius: 21px;
+    margin: 20px;  
+    color: aliceblue; 
+    filter:drop-shadow(1 2 3 0,9rem gold);
+    text-align: center;
+    font-size: large;
+    font-family: 'Lumanosimo', cursive;
+}
+h5{
+    color: beige;
+    font-family: 'Lumanosimo', cursive;
+}
